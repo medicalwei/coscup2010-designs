@@ -100,7 +100,7 @@ function coscup2010_theme(&$existing, $type, $theme, $path) {
  *   The name of the template being rendered (name of the .tpl.php file.)
  */
 function coscup2010_preprocess(&$vars, $hook) {
-  $vars['site_name'] = '8/14, 15'; // Dirty method =_="
+  $vars['site_name'] = '<span class="siteTitle">'.$vars['site_name'].' - </span><time datetime="2010-08-14">8/14</time>, <time datetime="2010-08-15">15</time>'; // Dirty method =_="
 }
 
 /**

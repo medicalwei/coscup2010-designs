@@ -73,6 +73,10 @@
     line-height: 24px;
   }
 
+  div#site-name .siteTitle{
+    display: none;
+  }
+
   #site-name a:link,
   #site-name a:visited
   {
@@ -259,6 +263,7 @@
 /** sidebar-right **/
   #sidebar-right
   {
+    font-size:12px;
   }
 
   #sidebar-right-inner
@@ -527,6 +532,8 @@
 
   .block h2.title /* Block title */
   {
+    font-size: 16px;
+    margin:0.5em 0;
   }
 
   .block .content /* Block's content wrapper */
@@ -782,4 +789,22 @@
     text-align: left;
     padding-right: 1em;
     border-bottom: 3px solid #ccc;
+  }
+
+/* used for coscup2010 sponsors list */
+  #coscupSponsors li{
+    margin: 10px 0;
+    list-style:none;
+  }
+  #coscupSponsors ul{
+    padding:0;
+    margin:10px 0;
+  }
+  #coscupSponsors li a{
+    display: block;
+    line-height:0;
+  }
+  #coscupSponsors h3{
+    font-size:12px;
+    margin:0;
   }

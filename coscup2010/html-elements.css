@@ -28,13 +28,9 @@
      * to use a 14px font size on the page, delete the 12px declarations.
      */
 
-    /* Use a 12px base font size with a 16px line height */
-    font-size: 0.75em; /* 16px x .75 = 12px */
-    line-height: 1.333em; /* 12px x 1.333 = 16px */
-
-    /* Use a 14px base font size with a 18px line height */
-    font-size: 0.875em; /* 16px x .875 = 14px */
-    line-height: 1.286em; /* 14px x 1.286 = 18px */
+    font-size: 1em; /* 16px x .75 = 12px */
+    line-height: 1.286em; /* 12px x 1.333 = 16px */
+    text-align:justify;
   }
 
   body, caption, th, td, input, textarea, select, option, legend, fieldset
@@ -75,8 +71,8 @@
 /** headings **/
   h1
   {
-    font-size: 2em;
-    line-height: 1.3em;
+    font-size: 1.8em;
+    line-height: 1.1em;
     margin-top: 0;
     margin-bottom: 0.5em; /* 0.5em is equavalent to 1em in the page's base font.
                              Remember, a margin specified in ems is relative to
